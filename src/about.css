@@ -29,6 +29,11 @@ hr{
 .forgotpass{
     margin-left: 15px;
 }
+.icons{
+    justify-content:space-around;
+    padding-left: 2px;
+    display: flex;
+}
 
 
 form{

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import {FaFacebook,FaTwitter,FaGoogle} from "react-icons/fa"
 import "./about.css";
 import girl from "./girl.png"
 
@@ -23,10 +24,17 @@ const About =()=>{
           <div className="or">
             <hr/><span>or</span><hr/>
           </div>
+          <div className="icons">
+          < FaFacebook /> 
+          < FaTwitter />
+          < FaGoogle />
+
+        </div>
 
         </form>
         <img className="girl" src= {girl}/>
         </div>
+        
        </div>
     )
 };
