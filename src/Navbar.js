@@ -1,5 +1,6 @@
 import React from "react";
 import './navbar.css'
+import { useState,useEffect } from 'react';
 
 const Navbar =()=>{
     return(
